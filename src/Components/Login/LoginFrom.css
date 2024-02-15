@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.from-container {
+    display: flex;
+    position: relative;
+}
+
+.login {
+    /* border: 1px solid green; */
+    width: 22rem;
+    height: 59vh;
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10rem auto;
+    background-color: #c7bacb;
+}
+
+.login h1 {
+    font-family: outfit, serif;
+    color: #00264d;
+    /* margin-bottom: 7rem; */
+}
+
+.login input {
+    /* margin-bottom: 1rem; */
+    padding: 6px 18px;
+    font-size: 1rem;
+    background-color: #385273;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #f4f4f4;
+}
+
+input:hover {
+    background-color: grey;
+}
+
+input::placeholder {
+    color: #fff;
+    font-family: outfit, serif;
+}
+
+.icons {
+    background-color: #00264d;
+    width: fit-content;
+    position: relative;
+    right: 2.3rem;
+    top: 39px;
+}
+
+.from-container::before {
+    content: "";
+    background: url("../../Assets//LoginBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.below {
+    color: #00264d;
+    padding-top: 1.5rem;
+}
+
+.below .sign-btn {
+    padding: .5rem;
+    border: #00264d;
+    font-family: 'Outfit', sans-serif;
+    font-size: large;
+}
+
+/* @media screen and (max-width: 540px) {
+    .icons{
+        background-color: #00264d;
+        width:max-content;
+        position: relative;
+        right: 1.8rem;
+        top: 36px;
+     }
+} */

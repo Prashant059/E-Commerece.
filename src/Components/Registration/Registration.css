@@ -1,0 +1,51 @@
+.registration::before{
+    content: "";
+    background: url("../../Assets//LoginBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.registration{
+    /* border: 0px solid white; */
+    /* margin-top: 5rem; */
+    display: flex;
+    height: 100vh;
+    margin-bottom: 11.5rem;
+}
+
+.userdetails{
+    width: 22rem;
+    height:fit-content;
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    top: 6.8rem;
+    background-color: #c7bacb;
+}
+.userdetails h1{
+    font-family: outfit, serif;
+    color: #00264d;
+    margin-bottom: 3rem;
+}
+.userdetails input{
+    width: 15rem;
+    border: none;
+    padding: .5rem;
+    margin-top: 1rem;
+    background-color: #385273;
+}
+input::placeholder{
+    color: #fff;
+    font-family: outfit, serif;
+ }

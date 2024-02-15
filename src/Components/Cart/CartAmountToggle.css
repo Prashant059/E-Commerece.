@@ -1,0 +1,11 @@
+.amount-toggle {
+    width: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.amount-style {
+    font-size: 1.4rem;
+}

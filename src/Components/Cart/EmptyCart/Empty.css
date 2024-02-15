@@ -1,0 +1,20 @@
+.empty-container{
+    width: 100%;
+    padding: 10rem 0 10rem 3.4rem;
+    /* display: flex;
+    justify-content:space-around;
+    align-items: center; */
+}
+.left-part{
+    font-size:xx-large;
+    color: brown;
+    font-weight: 700;
+}
+.right-part img{
+    width: 20rem;
+    height: 20rem;
+}
+
+@media screen and {
+    
+}

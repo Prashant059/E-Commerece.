@@ -1,0 +1,19 @@
+.footer-container{
+    height: 6rem;
+    background-color: #385273;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-section{
+    display: flex;
+}
+.left-section p{
+    color: #fff;
+}
+.right-section{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}

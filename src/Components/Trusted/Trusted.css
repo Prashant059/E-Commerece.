@@ -1,0 +1,17 @@
+.trust-container{
+    margin: 4.5rem 0 1rem 0;
+}
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: outfit, sans-serif;
+  }
+.brand-slider{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 10.2rem;
+}
